@@ -14,6 +14,7 @@
   --clr-very-dark-blue: hsl(234, 12%, 34%);
   --clr-grayish-blue: hsl(229, 6%, 66%);
   --clr-very-light-gray: hsl(0, 0%, 98%);
+  --clr-white: hsl(0, 0%, 100%);
   --ff-poppins: "Poppins", sans-serif;
 }
 
@@ -82,6 +83,7 @@ main {
   overflow: hidden;
   position: relative;
   width: 100%;
+  background-color: var(--clr-white);
 }
 
 .feature-card__accent {
